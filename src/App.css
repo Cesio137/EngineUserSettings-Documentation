@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.Container{
+  background-color: white;
+  min-width: 50%;
+  border-radius: 12px;
+}
+
+.mw-70{
+  max-width: 70%;
+}
