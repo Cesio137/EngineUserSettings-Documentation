@@ -11,6 +11,6 @@
 - Displacement based on distance; 
 
 
-# [Documentation Link](https://cesio137.github.io/LandscapeMaterial/)
+# [Documentation Link](https://cesio137.github.io/landscapematerial-react-ts/)
 
 # [Video Demo](https://www.youtube.com/watch?v=DzFZaeRBoEo)

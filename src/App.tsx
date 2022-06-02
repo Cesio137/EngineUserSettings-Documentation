@@ -133,7 +133,7 @@ function App() {
                       <a className="text-black"> | </a>
                       <a href="#">Marketplace</a>
                       <a className="text-black"> | </a>
-                      <a href="https://github.com/Cesio137/LandscapeMaterial/issues" target="_blank">Report Issues</a>
+                      <a href="https://github.com/Cesio137/landscapematerial-react-ts/issues" target="_blank">Report Issues</a>
                   </small>
 
               </div>
