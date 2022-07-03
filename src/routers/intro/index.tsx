@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState, Component } from 'react';
 import { Outlet, Link } from "react-router-dom";
 import ReactCompareImage from "react-compare-image";
-import logo from "../../logo.svg";
+import PlyrComponent from '../../components/video-player';
 
-import specoff from './img/SpecOff.png'
-import specon from './img/SpecOn.png'
+import logo from "../../logo.svg";
+import specoff from './img/SpecOff.png';
+import specon from './img/SpecOn.png';
 
 
 function Intro() {
+
     return (
         <div className="App">
 
@@ -25,7 +27,7 @@ function Intro() {
                         an easy away
                         to create a beautiful landscape material. The template includes a texture control parameters,
                         procedural specular map,
-                        layer paint, splines/<code>water plugin</code> support and virtual textures.
+                        layer paint, splines <code>water plugin</code> support and virtual textures.
                     </p>
 
                     <div className="card text-white bg-dark mb-3">
@@ -38,6 +40,93 @@ function Intro() {
 
                         </div>
                     </div>
+
+                    <div className="card text-white bg-dark mb-3">
+                        <div className="card-header fw-bold">Texture Control Parameters</div>
+                        <div className="card-body text-center">
+
+                            <h5 className="card-title d-flex">Adjust the texture maps of each layers with simple parameters</h5>
+
+                           
+
+                        </div>
+                    </div>
+
+                    <div className="card text-white bg-dark mb-3">
+                        <div className="card-header fw-bold">Texture Variation</div>
+                        <div className="card-body text-center">
+
+                            <h5 className="card-title d-flex">Hide the tile repetition with custom texture variation</h5>
+
+                           
+
+                        </div>
+                    </div>
+
+                    <div className="card text-white bg-dark mb-3">
+                        <div className="card-header fw-bold">Paintable Layers</div>
+                        <div className="card-body text-center">
+
+                            <h5 className="card-title d-flex">Paint a specifc part of landscape</h5>
+
+                           
+
+                        </div>
+                    </div>
+
+                    <div className="card text-white bg-dark mb-3">
+                        <div className="card-header fw-bold">Spline Layers</div>
+                        <div className="card-body text-center">
+
+                            <h5 className="card-title d-flex">Create smooth paths and roads with splines</h5>
+
+                           
+
+                        </div>
+                    </div>
+
+                    <div className="card text-white bg-dark mb-3">
+                        <div className="card-header fw-bold">Water Plugin</div>
+                        <div className="card-body text-center">
+
+                            <h5 className="card-title d-flex">Create custom textures around sea and rivers using <code className='p-1'>Water Plugin</code></h5>
+
+                           
+
+                        </div>
+                    </div>
+
+                    <div className="card text-white bg-dark mb-3">
+                        <div className="card-header fw-bold">Displacement Based on Distance</div>
+                        <div className="card-body text-center">
+
+                            <h5 className="card-title d-flex">Optimize your landscape details with subdivision based on distance</h5>
+
+                        </div>
+                    </div>
+
+                    <div className="card text-white bg-dark mb-3">
+                        <div className="card-header fw-bold">Virtual Textures</div>
+                        <div className="card-body text-center">
+
+                            <h5 className="card-title d-flex">Blend Objects, rocks and a lot of things to landscape</h5>
+
+                           
+
+                        </div>
+                    </div>
+
+                    <div className="card text-white bg-dark mb-3">
+                        <div className="card-header fw-bold">Vegetation</div>
+                        <div className="card-body text-center">
+
+                            <h5 className="card-title d-flex">Add vegetation to landscape with few clicks</h5>
+
+                           
+
+                        </div>
+                    </div>
+
 
                 </main>
 

@@ -38,7 +38,7 @@ function App() {
                       <div className="pb-3 mb-0 small lh-sm border-bottom w-100">
                           <div className="d-flex justify-content-between">
                               <strong className="text-gray-dark">INITIAL SETUP</strong>
-                              <Link to="/intro">See More</Link>
+                              <Link to="/setup">See More</Link>
                           </div>
                           <span className="d-flex">Basic setup for Landscape Automaterial</span>
                       </div>
@@ -149,6 +149,8 @@ function App() {
                   rel="noopener noreferrer"
               >
                   Learn React
+
+                 
               </a>
           </header>
       </div>
