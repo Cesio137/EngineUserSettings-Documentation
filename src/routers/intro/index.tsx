@@ -2,6 +2,7 @@ import React, { useState, Component } from 'react';
 import { Outlet, Link } from "react-router-dom";
 import ReactCompareImage from "react-compare-image";
 import PlyrComponent from '../../components/video-player';
+import ReactPlayer from 'react-player';
 
 import logo from "../../logo.svg";
 import specoff from './img/SpecOff.png';
@@ -101,6 +102,12 @@ function Intro() {
                         <div className="card-body text-center">
 
                             <h5 className="card-title d-flex">Optimize your landscape details with subdivision based on distance</h5>
+
+                            <div className='text-center'>
+                                <div className='player-wrapper'>
+                                    <ReactPlayer className='react-player' controls url={'https://github.com/Cesio137/landscapematerial-react-ts/blob/master/src/routers/intro/img/Displacement.webm?raw=true'} width='100%' height='100%' />
+                                </div>
+                            </div>
 
                         </div>
                     </div>
