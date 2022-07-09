@@ -105,7 +105,7 @@ function Intro() {
 
                             <div className='text-center'>
                                 <div className='player-wrapper'>
-                                    <ReactPlayer className='react-player' controls url={'https://github.com/Cesio137/landscapematerial-react-ts/blob/master/src/routers/intro/img/Displacement.webm?raw=true'} width='100%' height='100%' />
+                                    <ReactPlayer className='react-player' controls url={'https://github.com/Cesio137/landscapematerial-react-ts/blob/master/src/routers/intro/img/Displacement.mp4?raw=true'} width='100%' height='100%' />
                                 </div>
                             </div>
 
