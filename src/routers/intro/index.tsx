@@ -7,6 +7,8 @@ import ReactPlayer from 'react-player';
 import logo from "../../logo.svg";
 import specoff from './img/SpecOff.png';
 import specon from './img/SpecOn.png';
+import parameters from './img/parameters.mp4';
+import displacement from './img/displacement.mp4';
 
 
 function Intro() {
@@ -48,7 +50,9 @@ function Intro() {
 
                             <h5 className="card-title d-flex">Adjust the texture maps of each layers with simple parameters</h5>
 
-                           
+                            <div className='player-wrapper'>
+                                <video className='react-player' src={parameters} controls width='100%' height='100%'></video>
+                            </div>
 
                         </div>
                     </div>
@@ -105,7 +109,7 @@ function Intro() {
 
                             <div className='text-center'>
                                 <div className='player-wrapper'>
-                                    <ReactPlayer className='react-player' controls url={'https://github.com/Cesio137/landscapematerial-react-ts/blob/master/src/routers/intro/img/Displacement.mp4?raw=true'} width='100%' height='100%' />
+                                    <video className='react-player' src={displacement} controls width='100%' height='100%'></video>
                                 </div>
                             </div>
 
