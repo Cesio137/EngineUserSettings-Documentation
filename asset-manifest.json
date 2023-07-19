@@ -1,20 +1,15 @@
 {
   "files": {
-    "main.css": "/landscapematerial-react-ts/static/css/main.76dbff53.css",
-    "main.js": "/landscapematerial-react-ts/static/js/main.26307965.js",
-    "static/js/787.4ce7a8fc.chunk.js": "/landscapematerial-react-ts/static/js/787.4ce7a8fc.chunk.js",
-    "static/media/displacement.mp4": "/landscapematerial-react-ts/static/media/displacement.d0ccef7498d81234956f.mp4",
-    "static/media/parameters.mp4": "/landscapematerial-react-ts/static/media/parameters.b776b5ac7e920e967dee.mp4",
-    "static/media/SpecOn.png": "/landscapematerial-react-ts/static/media/SpecOn.dff55521ec7d6d10834b.png",
-    "static/media/SpecOff.png": "/landscapematerial-react-ts/static/media/SpecOff.33475b0a5261ea9f18ae.png",
-    "static/media/logo.svg": "/landscapematerial-react-ts/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/landscapematerial-react-ts/index.html",
-    "main.76dbff53.css.map": "/landscapematerial-react-ts/static/css/main.76dbff53.css.map",
-    "main.26307965.js.map": "/landscapematerial-react-ts/static/js/main.26307965.js.map",
-    "787.4ce7a8fc.chunk.js.map": "/landscapematerial-react-ts/static/js/787.4ce7a8fc.chunk.js.map"
+    "main.css": "/engineusersettings-documentation/static/css/main.99e0b856.css",
+    "main.js": "/engineusersettings-documentation/static/js/main.e451eb45.js",
+    "static/js/787.6a227500.chunk.js": "/engineusersettings-documentation/static/js/787.6a227500.chunk.js",
+    "index.html": "/engineusersettings-documentation/index.html",
+    "main.99e0b856.css.map": "/engineusersettings-documentation/static/css/main.99e0b856.css.map",
+    "main.e451eb45.js.map": "/engineusersettings-documentation/static/js/main.e451eb45.js.map",
+    "787.6a227500.chunk.js.map": "/engineusersettings-documentation/static/js/787.6a227500.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76dbff53.css",
-    "static/js/main.26307965.js"
+    "static/css/main.99e0b856.css",
+    "static/js/main.e451eb45.js"
   ]
 }
