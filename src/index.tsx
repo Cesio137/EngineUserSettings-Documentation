@@ -10,15 +10,15 @@ import Setup from "./pages/Setup";
 import home from "./pages/Home";
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/EngineUserSettings-Documentation",
         element: <Root/>,
         children: [
             {
-                path: "/",
+                path: "/EngineUserSettings-Documentation",
                 element: <Home/>
             },
             {
-                path: "setup",
+                path: "EngineUserSettings-Documentation/setup",
                 element: <Setup/>
             }
         ]
