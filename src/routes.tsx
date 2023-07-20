@@ -5,7 +5,7 @@ import Setup from "./pages/Setup";
 
 function RouteApps() {
     return (
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
             <Routes>
                 <Route path="/*" element={<App/>}>
                     <Route path="/*" element={<Home/>} />
