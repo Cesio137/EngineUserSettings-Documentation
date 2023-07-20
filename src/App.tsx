@@ -16,7 +16,7 @@ function App() {
 
         <Navbar className="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
           <Container>
-            <Navbar.Brand className={"fw-bold"} href={"/"}>EngineUserSettings</Navbar.Brand>
+            <Navbar.Brand className={"fw-bold"}>EngineUserSettings</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
