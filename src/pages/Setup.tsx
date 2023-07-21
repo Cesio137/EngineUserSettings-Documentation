@@ -4,6 +4,8 @@ import { Button, ButtonGroup, Modal, Ratio } from 'react-bootstrap'
 import logo from '../logo.svg';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import UE4Guide from '../media/video/UE4Guide.mp4';
+import UE5Guide from '../media/video/UE5Guide.mp4';
 
 function Setup() {
   const [show, setShow] = useState(false);
@@ -74,8 +76,8 @@ function Setup() {
             </div>
             <small className="d-block text-center mt-3">
               <ButtonGroup aria-label="Basic example">
-                <Button variant="secondary" onClick={() => handleShow("https://www.youtube.com/embed/zpOULjyy-n8?rel=0")}>UE4 Video Tutorial</Button>
-                <Button variant="secondary" onClick={() => handleShow("https://www.youtube.com/embed/Krp-hiL2W88")}>UE5 Video Tutorial</Button>
+                <Button variant="secondary" onClick={() => handleShow(UE4Guide)}>UE4 Video Tutorial</Button>
+                <Button variant="secondary" onClick={() => handleShow(UE5Guide)}>UE5 Video Tutorial</Button>
               </ButtonGroup>
 
               <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false}>
@@ -84,7 +86,7 @@ function Setup() {
                 </Modal.Header>
                 <Modal.Body>
                   <Ratio aspectRatio="16x9">
-                    <iframe src={videoLink} title="YouTube video" allowFullScreen></iframe>
+                    <video src={videoLink} controls />
                   </Ratio>
                 </Modal.Body>
                 <Modal.Footer>
