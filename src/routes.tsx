@@ -2,8 +2,8 @@ import { createHashRouter, HashRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import Home from "./pages/Home";
 import Setup from "./pages/Setup";
-import Features from "./pages/features/Features";
-import Intro from "./pages/features/Intro";
+import Documentation from "./pages/documentation/Documentation";
+import Intro from "./pages/documentation/Intro";
 
 function RouteApps() {
     return (
@@ -13,8 +13,8 @@ function RouteApps() {
                     <Route path="/" element={<Home/>} />
                     <Route path="setup" element={<Setup/>} />
                 </Route>
-                <Route path="features" element={<Features/>}>
-                    <Route path={"features"} element={<Intro/>} />
+                <Route path="documentation" element={<Documentation/>}>
+                    <Route path={"intro"} element={<Intro/>} />
                 </Route>
             </Routes>
         </HashRouter>
