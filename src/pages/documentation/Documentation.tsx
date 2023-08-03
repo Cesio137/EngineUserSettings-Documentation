@@ -39,8 +39,8 @@ function Documentation() {
                         <Nav className="flex-column">
                             <Nav.Link className={"fw-semibold"} as={Link} to="intro">Intro</Nav.Link>
                             <Nav className={"text-white fw-semibold"}>UE4 DOC</Nav>
-                            <Nav.Link className={"fw-semibold"} as={Link} to="/contact">RHI</Nav.Link>
-                            <Nav.Link className={"fw-semibold"} as={Link} to="/contact">Render</Nav.Link>
+                            <Nav.Link className={"fw-semibold"} as={Link} to="ue4rhi">RHI</Nav.Link>
+                            <Nav.Link className={"fw-semibold"} as={Link} to="ue4render">Render</Nav.Link>
                             <Nav className={"text-white fw-semibold"}>UE5 DOC</Nav>
                             <Nav.Link className={"fw-semibold"} as={Link} to="/contact">RHI</Nav.Link>
                             <Nav.Link className={"fw-semibold"} as={Link} to="/contact">Shaders</Nav.Link>

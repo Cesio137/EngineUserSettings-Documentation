@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1412294d-0b68-4527-9866-3348e9c46a5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/features/Features.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/features/Intro.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/media/img/ue4/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/media/img/ue4/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/media/img/ue4/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/media/img/ue4/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/media/img/ue4/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/media/img/ue4/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/documentation/UE4RHI.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/documentation/UE4Render.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/documentation/Documentation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/documentation/Documentation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/documentation/Intro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/documentation/Intro.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +30,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2SoKRLc8c0FOja3YERmkm6PmvFY" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -31,28 +42,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "E:\\Users\\Documents\\Github\\engineusersettings-documentation\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Users/Documents/Github/engineusersettings-documentation/src/pages/documentation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\Users\\Documents\\Github\\engineusersettings-documentation\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Documents\Github\engineusersettings-documentation\src\pages\documentation" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Documents\Github\engineusersettings-documentation\src\media\img\ue4" />
       <recent name="E:\Users\Documents\Github\engineusersettings-documentation\src\pages\features" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.run">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -64,6 +91,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,6 +107,17 @@
       <updated>1689807485422</updated>
       <workItem from="1689807488118" duration="185000" />
       <workItem from="1689872776873" duration="2704000" />
+      <workItem from="1689962763012" duration="12652000" />
+      <workItem from="1690047821706" duration="1043000" />
+      <workItem from="1690662021313" duration="175000" />
+      <workItem from="1690662203415" duration="451000" />
+      <workItem from="1690662667424" duration="736000" />
+      <workItem from="1690678535154" duration="6887000" />
+      <workItem from="1690743491447" duration="2908000" />
+      <workItem from="1690748102114" duration="1606000" />
+      <workItem from="1690810905441" duration="607000" />
+      <workItem from="1690995077213" duration="8421000" />
+      <workItem from="1691089023997" duration="3932000" />
     </task>
     <servers />
   </component>
