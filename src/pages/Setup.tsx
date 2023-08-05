@@ -1,7 +1,6 @@
 import React from 'react';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import { Button, ButtonGroup, Modal, Ratio } from 'react-bootstrap'
-import logo from '../logo.svg';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import UE4Guide from '../media/video/UE4Guide.mp4';

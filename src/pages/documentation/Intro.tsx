@@ -1,7 +1,5 @@
 import React from 'react';
-import { useState, useRef } from 'react';
-import { Container, Col, Image, Table, ListGroup } from 'react-bootstrap'
-import { Outlet, useLocation, Link, NavLink } from "react-router-dom";
+import { Container, Image, Table, ListGroup } from 'react-bootstrap'
 import SearchNode from '../../media/img/ue4/1.png';
 import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.css';

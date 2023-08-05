@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import {Button, Container, Nav, Navbar, Dropdown, Row, Col, Collapse} from "react-bootstrap";
+import {Button, Container, Nav, Navbar, Row, Col, Collapse} from "react-bootstrap";
 import {Link, NavLink, Outlet, useLocation} from "react-router-dom";
-import logo from '../../logo.svg';
 import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -42,9 +41,9 @@ function Documentation() {
                             <Nav.Link className={"fw-semibold"} as={Link} to="ue4rhi">RHI</Nav.Link>
                             <Nav.Link className={"fw-semibold"} as={Link} to="ue4render">Render</Nav.Link>
                             <Nav className={"text-white fw-semibold"}>UE5 DOC</Nav>
-                            <Nav.Link className={"fw-semibold"} as={Link} to="/contact">RHI</Nav.Link>
-                            <Nav.Link className={"fw-semibold"} as={Link} to="/contact">Shaders</Nav.Link>
-                            <Nav.Link className={"fw-semibold"} as={Link} to="/contact">Render</Nav.Link>
+                            <Nav.Link className={"fw-semibold"} as={Link} to="ue5rhi">RHI</Nav.Link>
+                            <Nav.Link className={"fw-semibold"} as={Link} to="ue5shaders">Shaders</Nav.Link>
+                            <Nav.Link className={"fw-semibold"} as={Link} to="ue5render">Render</Nav.Link>
                             {/* Adicione mais links conforme necessário */}
                         </Nav>
                     </Collapse>

@@ -1,8 +1,6 @@
 import React from 'react';
-import { useState, useRef } from 'react';
-import {Button, Container, Dropdown, Nav, Navbar, NavDropdown} from 'react-bootstrap'
+import {Container, Nav, Navbar} from 'react-bootstrap'
 import { Outlet, useLocation, Link, NavLink } from "react-router-dom";
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 

@@ -6,11 +6,11 @@ import getpreferredrhi from '../../media/img/ue4/4.png';
 import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-function UE4RHI() {
+function UE5RHI() {
   return (
       <div className="App">
           <header className="App-header-documentation">
-              <h1 className={"fw-bold"}>UE4 RHI</h1>
+              <h1 className={"fw-bold"}>UE5 RHI</h1>
               <h5 className={"text-start"}>RHI mean Render Hardware Interface, responsible for handling the graphics APIs (DX11, DX12, VULKAN).</h5>
               <h3 className={"fw-bold p-top-5"}>Nodes</h3>
               <Accordion defaultActiveKey="0">
@@ -41,4 +41,4 @@ function UE4RHI() {
   );
 }
 
-export default UE4RHI;
+export default UE5RHI;

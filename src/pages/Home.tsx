@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from 'react-bootstrap'
-import logo from '../logo.svg';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
