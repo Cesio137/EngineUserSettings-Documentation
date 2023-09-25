@@ -6,6 +6,10 @@ import setmsaaquality from '../../media/img/ue4/7.png';
 import getmsaaquality from '../../media/img/ue4/8.png';
 import setgi from '../../media/img/ue4/9.png';
 import getgi from '../../media/img/ue4/10.png';
+import setssgi from '../../media/img/ue4/19.png';
+import getssgi from '../../media/img/ue4/20.png';
+import setssr from '../../media/img/ue4/21.png';
+import getssr from '../../media/img/ue4/22.png';
 import setao from '../../media/img/ue4/11.png';
 import getao from '../../media/img/ue4/12.png';
 import setbloom from '../../media/img/ue4/13.png';
@@ -42,6 +46,30 @@ function UE4Render() {
                       </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="2">
+                      <Accordion.Header className={"fw-bold"}>Set | Get Global Illumination</Accordion.Header>
+                      <Accordion.Body className={"text-start"}>
+                          <h6 className={"fw-bold"}>Enable or disable dynamic global illumination.</h6>
+                          <Image src={setgi} rounded />
+                          <Image className={"p-left-2"} src={getgi} rounded />
+                      </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="10">
+                      <Accordion.Header className={"fw-bold"}>Set | Get SSGI Quality</Accordion.Header>
+                      <Accordion.Body className={"text-start"}>
+                          <h6 className={"fw-bold"}>Change Screen Space Global Illumination Quality.</h6>
+                          <Image src={setssgi} rounded />
+                          <Image className={"p-left-2"} src={getssgi} rounded />
+                      </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="11">
+                      <Accordion.Header className={"fw-bold"}>Set | Get SSR Quality</Accordion.Header>
+                      <Accordion.Body className={"text-start"}>
+                          <h6 className={"fw-bold"}>Change Screen Space Reflection Quality.</h6>
+                          <Image src={setssr} rounded />
+                          <Image className={"p-left-2"} src={getssr} rounded />
+                      </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="8">
                       <Accordion.Header className={"fw-bold"}>Set | Get Global Illumination</Accordion.Header>
                       <Accordion.Body className={"text-start"}>
                           <h6 className={"fw-bold"}>Enable or disable dynamic global illumination.</h6>

@@ -21,8 +21,8 @@ function Home() {
                 </div>
                 <p className="lead">
                     <div className="btn-group" role="group" aria-label="Button group with nested dropdown">
-                        <Button type="button" className="btn btn-danger">Video Showcase</Button>
-                        <Button type="button" className="btn btn-primary">Get Plugin</Button>
+                        <Button type="button" as={"a"} href="https://github.com/Cesio137" target={"_blank"} className="btn btn-danger">Video Showcase</Button>
+                        <Button type="button" as={"a"} href="https://www.unrealengine.com/marketplace/en-US/product/ef7fb07b25c045889222aeada7e375b2" target={"_blank"} className="btn btn-primary">Get Plugin</Button>
                     </div>
                 </p>
             </main>         
