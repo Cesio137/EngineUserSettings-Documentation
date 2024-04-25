@@ -7,11 +7,11 @@
 ## UE4 video tutorial
 
 <video width="60%"  controls>
-    <source src="/media/video/UE4Guide.mp4" type="video/mp4">
+    <source src="site:media/video/UE5Guide.mp4" type="video/mp4">
 </video>
 
 ## UE5 video tutorial
 
 <video width="60%"  controls>
-    <source src="/media/video/UE5Guide.mp4" type="video/mp4">
+    <source src="site:media/video/UE5Guide.mp4" type="video/mp4">
 </video>

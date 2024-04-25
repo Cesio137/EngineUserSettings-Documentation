@@ -24,5 +24,5 @@ markdown_extensions:
   - tables
   - md_in_html
 copyright: Copyright &copy; 2023 - 2024 plugin made by Natha Miguel.
-
-cesio137.github.io/
+plugins:
+  - site-urls
