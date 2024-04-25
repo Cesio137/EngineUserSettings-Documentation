@@ -179,13 +179,13 @@ Fortnite has certain options to change the graphic API and Feature Levels. There
 * Get if Ambient Occlusion is enabled or disabled.
 * ![Image title](https://github.com/Cesio137/EngineUserSettings-Documentation/raw/gh-pages/media/img/ue4/18.png)
 
-#### 22- Set Nanite
+#### 30- Set Nanite
 
 * Enable or disable Nanite.
 * OBS: UE5 only.
 * ![Image title](https://github.com/Cesio137/EngineUserSettings-Documentation/raw/gh-pages/media/img/ue5/11.png)
 
-#### 23- Get Nanite
+#### 31- Get Nanite
 
 * Get if Nanite is enabled or disabled.
 * OBS: UE5 only.
