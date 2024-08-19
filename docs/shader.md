@@ -12,6 +12,38 @@ Unreal Engine has several issues with stuttering due to the shader compiler. Thi
     <source src="https://github.com/Cesio137/EngineUserSettings-Documentation/raw/gh-pages/media/video/Shaders.mp4" type="video/mp4">
 </video>
 
+## Variables
+
+#### 1- Material Count
+
+* Type: int.
+* Get number of material shaders compiled.
+
+#### 2- Material Length
+
+* Type: int.
+* Get number of material shaders to compile.
+
+#### 3- Niagara Count
+
+* Type: int.
+* Get number of niagara system shaders compiled.
+
+#### 4- Niagara Length
+
+* Type: int.
+* Get number of niagara system shaders to compile.
+
+#### 5- Shaders Count
+
+* Type: int.
+* Get number of shaders compiled.
+
+#### 6- Shaders Length
+
+* Type: int.
+* Get number of all shaders to compile.
+
 ## Nodes
 
 #### 1- Start
