@@ -1,0 +1,26 @@
+---
+title: Common issues
+description: Common questions and issues
+---
+
+import { Step, Steps } from "fumadocs-ui/components/steps";
+
+## Support for other platforms
+
+The plugin has not been tested on other platforms, but it is possible to use the nodes from the `Render` section on platforms such as Linux, Mac, consoles, and mobile. You will likely need to save the values manually as well.
+
+## Package dedicated server
+
+If you are experiencing issues packaging a dedicated server due to a plugin, please try the following steps
+
+<Steps>
+  <Step>
+    Go to `EngineUserSettings` root folder
+  </Step>
+  <Step>
+    Open `EngineUserSettings.uplugin` with a text editor of your preference
+  </Step>
+  <Step>
+    Change `LoadingPhase` to `PreLoadingScreen`
+  </Step>
+</Steps>
