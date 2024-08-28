@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.icons-margin-auto {
+    margin: auto;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+body {
+    @apply bg-neutral-950;
+}
