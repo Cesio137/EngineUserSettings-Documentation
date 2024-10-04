@@ -9,7 +9,3 @@
 p:hover {
     cursor: pointer;
 }
-
-body {
-    @apply bg-neutral-950;
-}
