@@ -1,13 +1,13 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function HomePage() {
-  return (
-    <main className="flex h-screen flex-col justify-center text-center">
-      <h1 className="text-2xl font-bold">Engine User Settings</h1>
+    return (
+        <main className="flex flex-1 flex-col justify-center text-center">
+            <h1 className="text-2xl font-bold">Engine User Settings</h1>
             <span className="text-fd-muted-foreground py-4">
                 Optimize your game has never been easier
             </span>
-            <div className="flex justify-center gap-8">
+            <div className="flex justify-center gap-2">
                 <Link
                     className="bg-white px-3 py-1 rounded-full text-center text-black flex gap-1"
                     href="https://github.com/Cesio137/InternetProtocol"
@@ -29,6 +29,6 @@ export default function HomePage() {
                     Discord
                 </Link>
             </div>
-    </main>
-  );
+        </main>
+    );
 }
