@@ -2,8 +2,6 @@
 @import 'fumadocs-ui/css/neutral.css';
 @import 'fumadocs-ui/css/preset.css';
 
-@source '../node_modules/fumadocs-ui/dist/**/*.js';
-
 .icons-margin-auto {
     margin: auto;
 }
