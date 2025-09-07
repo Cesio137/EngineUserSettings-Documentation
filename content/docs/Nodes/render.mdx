@@ -3,144 +3,354 @@ title: Render
 description: Post-Processing settings
 ---
 
-import { ImageZoom } from 'fumadocs-ui/components/image-zoom';
+import { ImageZoom } from "fumadocs-ui/components/image-zoom";
 
 ## Set GI Method (UE5 only)
 
-* Change Global Illumination method (Lumen, SSR, Raytraced, None)
-<ImageZoom src="/img/ue5/setgimethod.png" alt='Render' width={293} height={0} />
+-   Change Global Illumination method (Lumen, SSR, Raytraced, None)
+
+<UFunction
+    name="Set GIMethod"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "GIMethod", pintype: "byte" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get GI Method (UE5 only)
 
-* Change Global Illumination method (Lumen, SSR, Raytraced, None)
-<ImageZoom src="/img/ue5/getgimethod.png" alt='Render' width={146} height={0} />
+-   Change Global Illumination method (Lumen, SSR, Raytraced, None)
+
+<UFunction
+    name="Get GIMethod"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "byte" }]}
+/>
 
 ## Set Allow Megalights (UE 5.5^)
 
-* Enable or disable Megalights
-<ImageZoom src="/img/ue5/setallowmegalights.png" alt='Render' width={186} height={0} />
+-   Enable or disable Megalights
+
+<UFunction
+    name="Set Allow Megalights"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Value", pintype: "bool" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get Allow Megalights (UE 5.5^)
 
-* Get if Megalights is enabled or disabled
-<ImageZoom src="/img/ue5/getallowmegalights.png" alt='Render' width={182} height={0} />
+-   Get if Megalights is enabled or disabled
+
+<UFunction
+    name="Get Allow Megalights"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "bool" }]}
+/>
 
 ## Set Global Illumination (UE4 only)
 
-* Enable or disable global illumination
-<ImageZoom src="/img/ue4/setgi.png" alt='Render' width={194} height={0} />
+-   Enable or disable global illumination
+
+<UFunction
+    name="Set Global Illumination"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Enable", pintype: "bool" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get Global Illumination (UE4 only)
 
-* Get if global illumination is enabled or disabled
-<ImageZoom src="/img/ue4/getgi.png" alt='Render' width={196} height={0} />
+-   Get if global illumination is enabled or disabled
+
+<UFunction
+    name="Get Global Illumination"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "bool" }]}
+/>
 
 ## Set SSGI Quality
 
-* Set Screen Space Global Illumination quality
-<ImageZoom src="/img/ue4/setssgiquality.png" alt='Render' width={161} height={0} />
+-   Set Screen Space Global Illumination quality
+
+<UFunction
+    name="Set SSGIQuality"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Quality", pintype: "int" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get SSGI Quality
 
-* Get Screen Space Global Illumination quality
-<ImageZoom src="/img/ue4/getssgiquality.png" alt='Render' width={160} height={0} />
+-   Get Screen Space Global Illumination quality
+
+<UFunction
+    name="Get SSGI Quality"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "int" }]}
+/>
 
 ## Set Reflection Method (UE5 only)
 
-* Change reflection method (Lumen, SSR, Raytraced, None)
-<ImageZoom src="/img/ue5/setreflectionmethod.png" alt='Render' width={290} height={0} />
+-   Change reflection method (Lumen, SSR, Raytraced, None)
+
+<UFunction
+    name="Set Reflection Method"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Reflection Method", pintype: "byte" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get Reflection Method (UE5 only)
 
-* Get reflection method
-<ImageZoom src="/img/ue5/getreflectionmethod.png" alt='Render' width={196} height={0} />
+-   Get reflection method
+
+<UFunction
+    name="Get Reflection Method"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "byte" }]}
+/>
 
 ## Set SSR Quality
 
-* Change Screen Space Reflection Quality
-<ImageZoom src="/img/ue4/setssrquality.png" alt='Render' width={155} height={0} />
+-   Change Screen Space Reflection Quality
+
+<UFunction
+    name="Set SSR Quality"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Quality", pintype: "int" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get SSR Quality
 
-* Get Screen Space Reflection Quality
-<ImageZoom src="/img/ue4/getssrquality.png" alt='Render' width={155} height={0} />
+-   Get Screen Space Reflection Quality
+
+<UFunction
+    name="Get SSR Quality"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "int" }]}
+/>
 
 ## Set Shadow Method (UE5 only)
 
-* Change shadow method (Shadow Map, Virtual Shadow Maps)
-<ImageZoom src="/img/ue5/setshadowmethod.png" alt='Render' width={292} height={0} />
+-   Change shadow method (Shadow Map, Virtual Shadow Maps)
+
+<UFunction
+    name="Set Shadow Method"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Shadow Map Method", pintype: "byte" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get Shadow Method (UE5 only)
 
-* Get Shadow Method
-<ImageZoom src="/img/ue5/getshadowmethod.png" alt='Render' width={183} height={0} />
+-   Get Shadow Method
+
+<UFunction
+    name="Get Shadow Method"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "byte" }]}
+/>
 
 ## Set AA Method
 
-* Change Antialiasing method (None, FXAA, MSAA, TAA, TSR)
-<ImageZoom src="/img/ue4/setaamethod.png" alt='Render' width={263} height={0} />
+-   Change Antialiasing method (None, FXAA, MSAA, TAA, TSR)
+
+<UFunction
+    name="Set AA Method"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Antialiasing Method", pintype: "byte" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get AA Method
 
-* Get Antialiasing method
-<ImageZoom src="/img/ue4/getaamethod.png" alt='Render' width={151} height={0} />
+-   Get Antialiasing method
+
+<UFunction
+    name="Get AA Method"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "byte" }]}
+/>
 
 ## Set MSAA Quality
 
-* Change MSAA quality
-<ImageZoom src="/img/ue4/setmsaaquality.png" alt='Render' width={263} height={0} />
+-   Change MSAA quality
+
+<UFunction
+    name="Set MSAA Quality"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "MSAA Quality", pintype: "byte" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get MSAA Quality
 
-* Get MSAA quality
-<ImageZoom src="/img/ue4/getmsaaquality.png" alt='Render' width={166} height={0} />
+-   Get MSAA quality
+
+<UFunction
+    name="Get MSAA Quality"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "byte" }]}
+/>
 
 ## Set Ambient Occlusion
 
-* Enable or disable Ambient Occlusion
-<ImageZoom src="/img/ue4/setao.png" alt='Render' width={196} height={0} />
+-   Enable or disable Ambient Occlusion
+
+<UFunction
+    name="Set Ambient Occlusion"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Enable", pintype: "bool" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get Ambient Occlusion
 
-* Get if Ambient Occlusion is enabled or disabled
-<ImageZoom src="/img/ue4/getao.png" alt='Render' width={197} height={0} />
+-   Get if Ambient Occlusion is enabled or disabled
+
+<UFunction
+    name="Get Ambient Occlusion"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "bool" }]}
+/>
 
 ## Set Bloom Quality
 
-* Change bloom quality
-<ImageZoom src="/img/ue4/setbloomquality.png" alt='Render' width={196} height={0} />
+-   Change bloom quality
+
+<UFunction
+    name="Set Bloom Quality"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Quality", pintype: "int" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get Bloom Quality
 
-* Get bloom quality
-<ImageZoom src="/img/ue4/getbloomquality.png" alt='Render' width={171} height={0} />
+-   Get bloom quality
+
+<UFunction
+    name="Get Bloom Quality"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "int" }]}
+/>
 
 ## Set Lens Flare Quality
 
-* Change lens flare quality
-<ImageZoom src="/img/ue4/setlensflarequality.png" alt='Render' width={193} height={0} />
+-   Change lens flare quality
+
+<UFunction
+    name="Set Lens Flare Quality"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Quality", pintype: "int" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get Lens Flare Quality
 
-* Get lens flare quality
-<ImageZoom src="/img/ue4/getlensflarequality.png" alt='Render' width={194} height={0} />
+-   Get lens flare quality
+
+<UFunction
+    name="Get Lens Flare Quality"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "int" }]}
+/>
 
 ## Set Motion Blur Quality
 
-* Change motion blur quality
-<ImageZoom src="/img/ue4/setmotionblurquality.png" alt='Render' width={199} height={0} />
+-   Change motion blur quality
+
+<UFunction
+    name="Set Motion Blur Quality"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Quality", pintype: "int" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get Motion Blur Quality
 
-* Get motion blur quality
-<ImageZoom src="/img/ue4/getmotionblurquality.png" alt='Render' width={202} height={0} />
+-   Get motion blur quality
+
+<UFunction
+    name="Get Motion Blur Quality"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "int" }]}
+/>
 
 ## Use nanite (UE5 only)
 
-* Enable or disable nanite
-<ImageZoom src="/img/ue5/usenanite.png" alt='Render' width={199} height={0} />
+-   Enable or disable nanite
+
+<UFunction
+    name="Use nanite"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Controller", pintype: "object" },
+        { name: "Enable", pintype: "bool" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get Use Nanite (UE5 only)
 
-* Get if nanite is enabled or disabled
-<ImageZoom src="/img/ue5/getusenanite.png" alt='Render' width={202} height={0} />
+-   Get if nanite is enabled or disabled
+
+<UFunction
+    name="Get Use Nanite"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "bool" }]}
+/>

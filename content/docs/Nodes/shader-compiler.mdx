@@ -3,7 +3,7 @@ title: Shader Compiler
 description: In-game shader compilation
 ---
 
-import { ImageZoom } from 'fumadocs-ui/components/image-zoom';
+import { ImageZoom } from "fumadocs-ui/components/image-zoom";
 import { Step, Steps } from "fumadocs-ui/components/steps";
 
 Unreal Engine has several issues with stuttering due to the shader compiler. This feature allows you to compile shaders in-game, making the experience more seamless.
@@ -11,17 +11,16 @@ Unreal Engine has several issues with stuttering due to the shader compiler. Thi
 ## How to use
 
 <Steps>
-  <Step>
-    Drag and drop `ABP_ShadersCompiler` to your menu level
-  </Step>
-  <Step>
-    Get reference to the actor and them call `start` function from `ABP_ShadersCompiler`
-  </Step>
+    <Step>Drag and drop `ABP_ShadersCompiler` to your menu level</Step>
+    <Step>
+        Get reference to the actor and them call `start` function from
+        `ABP_ShadersCompiler`
+    </Step>
 </Steps>
 
-* Warning: Avoid compiling shaders in editor mode, as this will compile the engine’s built-in materials and may lead to increased RAM usage.
+-   Warning: Avoid compiling shaders in editor mode, as this will compile the engine’s built-in materials and may lead to increased RAM usage.
 
-<video width="60%"  controls>
+<video width="60%" controls>
     <source src="/video/Shaders.mp4" type="video/mp4" />
 </video>
 
@@ -29,49 +28,107 @@ Unreal Engine has several issues with stuttering due to the shader compiler. Thi
 
 ### Material Count
 
-* Get number of material shaders compiled
-<ImageZoom src="/img/shaders/materialcount.png" alt='Shader compiler' width={350} height={0} />
+-   Get number of material shaders compiled
+    <ImageZoom
+        src="/img/shaders/materialcount.png"
+        alt="Shader compiler"
+        width={350}
+        height={0}
+    />
 
 ### Material Length
 
-* Get number of material shaders to be compiled
-<ImageZoom src="/img/shaders/materiallength.png" alt='Shader compiler' width={350} height={0} />
+-   Get number of material shaders to be compiled
+    <ImageZoom
+        src="/img/shaders/materiallength.png"
+        alt="Shader compiler"
+        width={350}
+        height={0}
+    />
 
 ### Niagara Count
 
-* Get number of niagara system compiled
-<ImageZoom src="/img/shaders/niagaracount.png" alt='Shader compiler' width={350} height={0} />
+-   Get number of niagara system compiled
+    <ImageZoom
+        src="/img/shaders/niagaracount.png"
+        alt="Shader compiler"
+        width={350}
+        height={0}
+    />
 
 ### Niagara Length
 
-* Get number of niagara system to be compiled
-<ImageZoom src="/img/shaders/niagaralength.png" alt='Shader compiler' width={350} height={0} />
+-   Get number of niagara system to be compiled
+    <ImageZoom
+        src="/img/shaders/niagaralength.png"
+        alt="Shader compiler"
+        width={350}
+        height={0}
+    />
 
 ## Nodes
 
 ### Start
 
-* Start shader compilation
-<ImageZoom src="/img/shaders/start.png" alt='Shader compiler' width={240} height={0} />
+-   Start shader compilation
+
+<UFunction
+    name="Start"
+    className="ABP Shaders Compiler"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Target", pintype: "object" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ### Stop
 
-* Stop shader compilation
-<ImageZoom src="/img/shaders/stop.png" alt='Shader compiler' width={240} height={0} />
+-   Stop shader compilation
+
+<UFunction
+    name="Stop"
+    className="ABP Shaders Compiler"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Target", pintype: "object" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Events
 
 ### On Started
 
-* Event triggered when shader start to compile
-<ImageZoom src="/img/shaders/onstarted.png" alt='Shader compiler' width={215} height={0} />
+-   Event triggered when shader start to compile
+
+<UEvents
+    name="On Started"
+    showBindNode={true}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ### On Shader Compiled
 
-* Event triggered when one shader has been compiled.
-<ImageZoom src="/img/shaders/onshadercompiled.png" alt='Shader compiler' width={265} height={0} />
+-   Event triggered when one shader has been compiled.
+
+<UEvents
+    name="On Shader Compiled"
+    showBindNode={true}
+    outPins={[
+        { name: "", pintype: "exec" },
+        { name: "Shaders Compiled", pintype: "int" },
+    ]}
+/>
 
 ### On Fisnish
 
-* Event triggered when all shaders compilation has ben finished.
-<ImageZoom src="/img/shaders/onfinish.png" alt='Shader compiler' width={202} height={0} />
+-   Event triggered when all shaders compilation has ben finished.
+
+<UEvents
+    name="On Fisnish"
+    showBindNode={true}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>

@@ -1,22 +1,41 @@
 ---
 title: RHI
-description: Vulkan, DirectX 11, DirectX 12 
+description: Vulkan, DirectX 11, DirectX 12
 ---
 
-import { ImageZoom } from 'fumadocs-ui/components/image-zoom';
+import { ImageZoom } from "fumadocs-ui/components/image-zoom";
 
 ## Set Prefered RHI
 
-* Change between DX11, DX12 or VULKAN.
-* OBS: Game need to be restarted to take effect.
-<ImageZoom src="/img/ue4/setpreferredrhi.png" alt='RHI' width={263} height={0} />
+-   Change between DX11, DX12 or VULKAN.
+-   OBS: Game need to be restarted to take effect.
+
+<UFunction
+    name="Set Prefered RHI"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Graphics RHI", pintype: "byte" }
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get Prefered RHI
 
-* Gets the RHI that will be used when the game is restarted.
-<ImageZoom src="/img/ue4/getpreferredrhi.png" alt='RHI' width={169} height={0} />
+-   Gets the RHI that will be used when the game is restarted.
+
+<UFunction
+    name="Get Prefered RHI"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "byte" }]}
+/>
 
 ## Get Current RHI
 
-* Gets the RHI that will be used when the game is restarted.
-<ImageZoom src="/img/ue4/getcurrentrhi.png" alt='RHI' width={161} height={0} />
+-   Gets the RHI that will be used when the game is restarted.
+
+<UFunction
+    name="Get Current RHI"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "byte" }]}
+/>

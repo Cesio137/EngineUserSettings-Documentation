@@ -3,25 +3,49 @@ title: Shader Model
 description: UE5 only - Performance mode, SM5, SM6
 ---
 
-import { ImageZoom } from 'fumadocs-ui/components/image-zoom';
+import { ImageZoom } from "fumadocs-ui/components/image-zoom";
 
 ## Set Prefered Feature Level
 
-* Change between SM5, SM6 and Performance Mode.
-* OBS: Game need to be restarted to take effect.
-<ImageZoom src="/img/ue5/setpreferredfeaturelevel.png" alt='Shader model' width={292} height={0} />
+-   Change between SM5, SM6 and Performance Mode.
+-   OBS: Game need to be restarted to take effect.
+
+<UFunction
+    name="Set Prefered Feature Level"
+    pure={false}
+    inPins={[
+        { name: "", pintype: "exec" },
+        { name: "Shader Format", pintype: "byte" },
+    ]}
+    outPins={[{ name: "", pintype: "exec" }]}
+/>
 
 ## Get Prefered Feature Level
 
-* Gets the Shader Model that will be used when the game is restarted.
-<ImageZoom src="/img/ue5/getpreferredfeaturelevel.png" alt='Shader model' width={230} height={0} />
+-   Gets the Shader Model that will be used when the game is restarted.
+
+<UFunction
+    name="Get Prefered Feature Level"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "byte" }]}
+/>
 
 ## Get Current Feature Level
 
-* Get current Shader Model.
-<ImageZoom src="/img/ue5/getcurrentfeaturelevel.png" alt='Shader model' width={216} height={0} />
+-   Get current Shader Model.
+
+<UFunction
+    name="Get Current Feature Level"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "byte" }]}
+/>
 
 ## Get Max Feature Level
 
-* Get max supported Shader Model by hardware.
-<ImageZoom src="/img/ue5/getmaxfeaturelevel.png" alt='Shader model' width={198} height={0} />
+-   Get max supported Shader Model by hardware.
+
+<UFunction
+    name="Get Max Feature Level"
+    pure={true}
+    outPins={[{ name: "Return Value", pintype: "byte" }]}
+/>
