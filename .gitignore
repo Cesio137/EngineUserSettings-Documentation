@@ -2,8 +2,6 @@
 /node_modules
 
 # generated content
-.contentlayer
-.content-collections
 .source
 
 # test & build
@@ -25,5 +23,4 @@ yarn-error.log*
 # others
 .env*.local
 .vercel
-package-lock.json
 next-env.d.ts
